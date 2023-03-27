@@ -8,7 +8,7 @@ ctor=soma=media=ctor2=0 # variáveis para contar os dias e calcular a média
 while bandeira!='N':
 
     nr=float(input('Informe o valor do faturamento'))
-    bandeira=str(input('Deseja continuar?_ [S/N]_')).upper().strip()[0]
+    bandeira=str(input('Digite [NÃO] para sair, [SIM] para continuar_')).upper().strip()[0]
     if ctor==0: # mantem o menor valor no inicio.
         menor=nr
     if nr>maior: # guarda o maior valor
