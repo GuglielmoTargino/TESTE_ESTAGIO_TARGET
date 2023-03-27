@@ -14,33 +14,21 @@ sinal=0 # variavel para sinalizar se o número digitado faz parte da sequencia. 
 
 
 
-while nr3<=ref:   
+while nr3<=ref:   # teste para terminar a sequência Fibonacci.
     nr3=nr1+nr2
+
     if nr3==ref:  # testa se o número faz parte da sequência.     
        sinal=1
-       nr3+=1
-       
-    elif ref==0:
-         sinal=1
-         nr3+=1
-
-    elif ref==1:
-        sinal=1
-        nr3+=1
-
-    elif ref==2:
-        sinal=1
-        nr3+=1
-
+       nr3+=1   
     else:         
         nr1=nr2
         nr2=nr3
-        nr3+=1 
 
 if sinal==1:   
-   print(f"Número {ref} digitado não pertence a sequência Fibonacci")  
+   print(f"Número {ref} digitado pertence a sequência Fibonacci") 
+
 else:
-   print(f" Número {ref} não pertence a sequência Fibonacci")
+   print(f"Número {ref} não pertence a sequência Fibonacci")
 
 
  
