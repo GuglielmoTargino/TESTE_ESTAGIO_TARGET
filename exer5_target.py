@@ -8,10 +8,4 @@ trocado=""# variável para receber os elemntos um por vez, do último para prime
 for letra in range(len(junto) -1,-1,-1): # coloca os caracteres da frente para trás.
     trocado+=junto[letra]
 
-
-
-print(f"{trocado}")
-
-
-
-
+print(f"{trocado}") # mostra os caracteres invertidos
